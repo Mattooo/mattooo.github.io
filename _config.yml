@@ -1,2 +1,3 @@
 name: Matej Cervenka, Programmer
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
