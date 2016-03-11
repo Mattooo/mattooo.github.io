@@ -1,6 +1,7 @@
-name: Matej Cervenka, Programmer
+name: Mattooo
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 collections: 
   webPubsProjects:
     output: true
+

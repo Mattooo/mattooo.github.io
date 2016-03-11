@@ -1,0 +1,23 @@
+---
+layout: default
+title: Kontakty
+contacts:
+  fb: https://www.facebook.com/cervenka.matej
+  in: https://sk.linkedin.com/in/matej-červenka-208120100
+  git: https://github.com/Mattooo
+  mail: matej.cervenka@gmail.com
+
+
+---
+<div>
+	<h1>{{ page.title }}</h1>
+	<p>V prípade akýchkoľvek otázok, pripomienok, ponúk ma prosím neváhajte kontaktovať.</p>
+</div>
+<div class="contacts">
+	<ul>
+		<li><a href="mailto:{{ page.contacts.mail }}"> <img src="/images/email.png"  style="width: 44px;"></a>@matej.cervenka</li>
+		<li><a href={{ page.contacts.git }} target="_blank"> <img src="/images/git.png"  style="width: 44px;"></a>@Mattooo</li>
+		<li><a href={{ page.contacts.in }} target="_blank"> <img src="/images/in.png"></a>@MatejČervenka</li>
+		<li><a href={{ page.contacts.fb }} target="_blank"> <img src="/images/fb.png"></a>@cervenka.matej</li>
+	</ul>
+</div>

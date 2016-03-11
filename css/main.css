@@ -1,7 +1,7 @@
 
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 75%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     background-image: url(../images/bg.png);
     background-attachment: fixed;
@@ -15,17 +15,24 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    border-right: 1px solid #f2e419;
 }
 nav ul li {
-    display: inline;
-    margin-right: 50px;
-    font-size: 30px;
-    line-height: 24px;
+    margin-right: 20px;
+    font-size: 35px;
+    line-height: 30px;
     list-style-image: none;
     list-style-position: outside;
     list-style-type: none;
     margin-bottom: 0;
     text-transform: uppercase;
+}
+nav {
+    margin-top: 60px;
+    height: 1000px;
+    margin-right: 50px;
+    float: left;
+    text-align: right;
 }
 a {
     text-decoration: none;
@@ -78,7 +85,7 @@ ul.posts li {
     list-style: none;
 }
 ul.webPubsprojects {
- list-style: none;
+    list-style: none;
 }
 div.webPubsprojects{
     background: -moz-linear-gradient(top,  rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.2) 40%, rgba(255,255,255,0) 100%); 
@@ -89,9 +96,31 @@ div.webPubsprojects{
     padding-right: 10px;
     padding-bottom: 7px;
     margin-top: 10px;
+    margin-left: 21.5%;
 
 }
 div.webPubsprojects > h2{
     color: #f2e419;
     margin-bottom: 5px;
+}
+div.contacts > ul {
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 3em;
+    color: white;
+}
+div.contacts > ul > li > a > img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#cite{
+     font-size: 6em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: 900;
+    color: black;
+    text-transform: uppercase;
+     text-align: right;
+}
+#author {
+    text-align: right;
 }
