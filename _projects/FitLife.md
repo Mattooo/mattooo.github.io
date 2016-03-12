@@ -1,4 +1,5 @@
 ---
+layout: project
 title: "Fit Life"
 date: 2015-09-14
 language: Ruby on Rails

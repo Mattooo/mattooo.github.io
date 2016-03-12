@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>{{ site.name }} | {{ page.title }}</title>
+			<title>{{ site.data.myProfile.userName  }} | {{ page.title }}</title>
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<nav>
+			<div id="navigation">
 	    		<ul>
 	        		<li><a href="/">Domov</a></li>
 	        		<li><a href="/projects">Projekty</a></li>
@@ -13,7 +13,7 @@
 	        		<li><a href="/webPub">Webové pub.</a></li>
 	        		<li><a href="/contact">Kontakty</a></li>
 	    		</ul>
-			</nav>
+			</div>
 			<div class="container">
 				{{ content }}			
 			</div>

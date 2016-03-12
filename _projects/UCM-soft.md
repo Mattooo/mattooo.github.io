@@ -1,4 +1,5 @@
 ---
+layout: project
 title: "UCM Soft"
 date: 2015-05-20
 language: Java EE
