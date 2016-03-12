@@ -1,21 +1,6 @@
 ---
 layout: default
 title: Kontakty
-contacts:
-  fb: 
-    web: https://www.facebook.com/cervenka.matej
-    name: cervenka.matej
-  in: 
-    web: https://sk.linkedin.com/in/matej-červenka-208120100
-    name: MatejČervenka
-  git:
-    web: https://github.com/Mattooo
-    name: Mattooo
-  email: 
-    web: mailto:matej.cervenka@gmail.com
-    name: matej.cervenka
-
-
 ---
 <div>
 	<h1>{{ page.title }}</h1>
@@ -23,7 +8,7 @@ contacts:
 </div>
 <div class="contacts">
 	<ul>
-		{% for contact_hash in page.contacts %}
+		{% for contact_hash in site.data.myProfile.contacts %}
 			{% for contact in contact_hash %}
 				{% assign var = contact.web | strip_newlines %}
 				{% if var != "" %}

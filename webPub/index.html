@@ -3,10 +3,10 @@ layout: default
 title: Projekty z Webového Publikovania
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="webPubsprojects">
+	<ul class="GrayBorder">
 	  {% for project in site.webPubsProjects %}
 	   	<li>
-			<div class="webPubsprojects">
+			<div class="GrayBorder">
 				<h2>{{ project.title }}</h2>
 				<b>Uverejnené:</b> {{ project.date | date_to_long_string  }}<br>
 				<b>Tagy:</b> {{ project.tags | sort }}

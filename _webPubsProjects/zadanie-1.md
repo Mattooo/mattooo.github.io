@@ -9,4 +9,4 @@ V rámci developerského profilu vytvorte sekciu Webové publikovanie, kde budet
 Využite pritom technológie Git + GitHub Pages + Jekyll + Markdown. Využite potenciál statického generátora Jekyll a jeho templatovacích možností.
 
 **Výsledok**<br>
-Na výsledok tohto zadania sa práve pozeráte. Jeho zdrojové súbory nájdete na [GitHub@Mattooo](https://github.com/Mattooo/mattooo.github.io)
+Na výsledok tohto zadania sa práve pozeráte. Jeho zdrojové súbory nájdete na [GitHub@Mattooo/mattooo.github.io]({{site.data.myProfile.contacts.git.web}}/Mattooo.github.io)

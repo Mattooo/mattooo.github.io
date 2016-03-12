@@ -84,10 +84,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-ul.webPubsprojects {
+ul.GrayBorder {
     list-style: none;
 }
-div.webPubsprojects{
+div.GrayBorder{
     background: -moz-linear-gradient(top,  rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.2) 40%, rgba(255,255,255,0) 100%); 
     background: -webkit-linear-gradient(top,  rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.2) 40%,rgba(255,255,255,0) 100%); 
     background: linear-gradient(to bottom,  rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.2) 40%,rgba(255,255,255,0) 100%); 
@@ -99,7 +99,7 @@ div.webPubsprojects{
     margin-left: 275px;
 
 }
-div.webPubsprojects > h2{
+div.GrayBorder > h2{
     color: #f2e419;
     margin-bottom: 5px;
 }

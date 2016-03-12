@@ -9,15 +9,15 @@ title: Domov
 	<p id="author">Thomas Edison 1847-1931</p>
 <h1>Niečo krátko o mne...</h1>
 	<p>
-		Volám sa Matej, pochádzam z Bratislavy a navštevujem tretí ročník bakalárskeho štúdia na Fakulte Informatiky a Informačných technológií v Bratislave. 
+		Volám sa {{site.data.myProfile.name}}, pochádzam z Bratislavy a navštevujem tretí ročník bakalárskeho štúdia na Fakulte Informatiky a Informačných technológií v Bratislave. 
 		Ako je možné odvodiť z názvu fakulty, som programátor. Programoval som predovšetkým desktopové aplikácie v jazyku JAVA, no v polovici roka 2015 som sa porpvé prepracoval
-		k webom a pre ich tvorbu som si vybral jazyk Ruby on Rails. Okrem malého projektu pre strednú školu som v Ruby robil aj web na moju bakalársku prácu, v ktorej sa zaoberám vzťahom 
+		k webom a pre ich tvorbu som si vybral jazyk Ruby on Rails. Okrem spolupráce na malom projekte pre strednú školu som v Ruby robil aj web na moju bakalársku prácu, v ktorej sa zaoberám vzťahom 
 		medzi rozšírením zreničky používateľa a UX problémami v internetových formulároch...
 	</p>
 	<h2>Skills</h2>
 	<ul>
-		<li>Java</li>
-		<li>C</li>	
-		<li>Ruby on Rails</li>
+		{% for skill in site.data.myProfile.skills %}
+			<li>{{skill}}</li>
+		{% endfor %}
 	</ul>
 </div>
