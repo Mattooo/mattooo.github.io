@@ -5,6 +5,15 @@ title: Projekty z Webového Publikovania
 	<h1>{{ page.title }}</h1>
 	<ul class="webPubsprojects">
 	  {% for project in site.webPubsProjects %}
-	   	{{project}}	
+	   	<li>
+			<div class="webPubsprojects">
+				<h2>{{ project.title }}</h2>
+				<b>Uverejnené:</b> {{ project.date | date_to_long_string  }}<br>
+				<b>Tagy:</b> {{ project.tags | sort }}
+				<div class="content">
+ 					{{ project.content }}
+ 				</div>
+			</div>
+	   	</li>
 	  {% endfor %}
 	</ul>
