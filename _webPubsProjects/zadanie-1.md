@@ -1,4 +1,5 @@
 ---
+layout: webPub
 title: "Osobná webová prezentácia na GitHub pages"
 date: 2016-03-10
 tags: HTML, CSS, Jekyll, GitPages, Markdown
