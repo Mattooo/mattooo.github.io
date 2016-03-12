@@ -2,10 +2,18 @@
 layout: default
 title: Kontakty
 contacts:
-  fb: https://www.facebook.com/cervenka.matej
-  in: https://sk.linkedin.com/in/matej-červenka-208120100
-  git: https://github.com/Mattooo
-  mail: matej.cervenka@gmail.com
+  fb: 
+    web: https://www.facebook.com/cervenka.matej
+    name: cervenka.matej
+  in: 
+    web: https://sk.linkedin.com/in/matej-červenka-208120100
+    name: MatejČervenka
+  git:
+    web: https://github.com/Mattooo
+    name: Mattooo
+  email: 
+    web: mailto:matej.cervenka@gmail.com
+    name: matej.cervenka@gmail.com
 
 
 ---
@@ -15,9 +23,15 @@ contacts:
 </div>
 <div class="contacts">
 	<ul>
-		<li><a href="mailto:{{ page.contacts.mail }}"> <img src="/images/email.png"  style="width: 44px;"></a>@matej.cervenka</li>
-		<li><a href={{ page.contacts.git }} target="_blank"> <img src="/images/git.png"  style="width: 44px;"></a>@Mattooo</li>
-		<li><a href={{ page.contacts.in }} target="_blank"> <img src="/images/in.png"></a>@MatejČervenka</li>
-		<li><a href={{ page.contacts.fb }} target="_blank"> <img src="/images/fb.png"></a>@cervenka.matej</li>
+		{% for contact_hash in page.contacts %}
+			{% for contact in contact_hash %}
+				{% assign var = contact.web | strip_newlines %}
+				{% if var != "" %}
+				<li><a href={{ contact.web }}> <img src="/images/{{contact_hash[0]}}.png"></a>@{{contact.name}}</li>
+				{% endif %}
+			{% endfor %}
+			
+		{% endfor %}
 	</ul>
+
 </div>

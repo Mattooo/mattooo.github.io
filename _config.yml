@@ -4,4 +4,17 @@ permalink: /blog/:year/:month/:day/:title
 collections: 
   webPubsProjects:
     output: true
+yolo:
+  a: 
+    b: https://www.facebook.com/cervenka.matej
+    c: cervenka.matej
+  d: 
+    e: https://sk.linkedin.com/in/matej-červenka-208120100
+    f: MatejČervenka
+  g:
+    h: https://github.com/Mattooo
+    i: Mattooo
+  j: 
+    k: mailto:matej.cervenka@gmail.com
+    l: matej.cervenka@gmail.com
 
