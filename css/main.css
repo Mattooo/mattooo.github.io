@@ -108,3 +108,19 @@ div.contacts > ul > li > a > img {
 #author {
     text-align: right;
 }
+table {
+    width:50%;
+}
+table td{
+    color: #f2e419;
+    vertical-align: top;
+}
+#date{
+    color: white;
+    font-size: 0.87em; 
+}
+.projectContent ul{
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #f6f6f6;
+}

@@ -2,12 +2,40 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<span id="date">{{ page.date | date_to_string }}</span>
 
-<div class="post">
-  {{ content }}
+<div class="projectContent">
+{{ content }}
 </div>
 
-<div class="comments">
-	{% include disqus.html %}	 
+
+<div>
+	<table>
+		<tr>
+			<td>
+				{% assign technologiesArr = page.technologies | split: "," %} 
+				<h2>Technológie</h2>
+				<ul>
+					{% for tech in technologiesArr.%}
+					<li>{{tech}}</li>
+					{% endfor %}
+				</ul>
+			</td>
+			<td>
+				{% assign languageArr = page.language | split: "," %} 
+				<h2>Jazyky</h2>
+				<ul>
+					{% for leng in languageArr.%}
+					<li>{{leng}}</li>
+					{% endfor %}
+				</ul>
+			</td>   
+		</tr>
+	</table>
 </div>
+
+<div class="comment">
+	{% include disqus.html %}	
+</div>
+
+
