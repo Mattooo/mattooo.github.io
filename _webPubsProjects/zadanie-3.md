@@ -18,5 +18,12 @@ Základné elementy XML:
 * slide - základný element przentácie, môže mať atribút type s hodnotou intro. Takýto slajd je vygenerovaná ako úvdný
 * text - element slajdu obsahujúci odsek
 * title - element slajdu obsahujúci nadpis
-* li - element slajdu obsahujúci zoznam. Možnosť atribútu type=(ol|ul) kde ol je číslovaný zoznam ul odrážky
+* li - element slajdu obsahujúci zoznam. Nutné zadať atribút atribút type=(ol alebo ul) kde ol je číslovaný zoznam ul odrážky
 * img - možnosť vloženia obrázka do slajdu. Atribúty name ktorý označuje názov obrázku a size, ktorý označuje veľksoť obrázku
+
+Všetky elementy elementu slide, je možne konfigurovať menením parametrov:
+
+* color
+* weight
+* align
+* size
