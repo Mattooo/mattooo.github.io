@@ -11,4 +11,11 @@ Navrhnite a vytvorte XSLT šablóny pre konverziu prezentácie z XML do XHTML+CS
 Súčasťou požiadaviek na zadanie je vytvorenie správy o zadaní 3, ktorá bude súčasťou vašej stránky o Webovom publikovaní na GitHube.
 
 **Výsledok**<br>
+Vytvoril som zápis jednoduchej prezentácie v jazyku XML. Pomocou atribútov elementov je možné robiť jednoduché fomrátovanie slajdov prezentácie. Validita dokumentu zabezpečuje inline definícia typu dokumentu (DTD), ktorá je súčasťou XML prezentácie. Vytvorili sme XSLT šablónu, ktorá súbor XML prekonvertuje do výstupných HTML súborov. Tieto súbory už obsahuhú jednotlivé stránky prezentácie.
 
+Základné elementy XML:
+* slide - základný element przentácie, môže mať atribút type s hodnotou intro. Takýto slajd je vygenerovaná ako úvdný
+* text - element slajdu obsahujúci odsek
+* title - element slajdu obsahujúci nadpis
+* li - element slajdu obsahujúci zoznam. Možnosť atribútu type=(ol|ul) kde ol je číslovaný zoznam ul odrážky
+* img - možnosť vloženia obrázka do slajdu. Atribúty name ktorý označuje názov obrázku a size, ktorý označuje veľksoť obrázku
