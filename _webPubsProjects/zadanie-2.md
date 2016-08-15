@@ -30,4 +30,4 @@ Dokument na spracovanie som si vybral moju bakalársku prácu. Vo výstupe sa na
 * unlink na poznámku pod čiarou
 * table na zobrazenie tabulky
 
-Okrem elementov bol upravené aj XSL, v ktorom som upravil formát vypisovania kapitol. Taktiež som nastavil aby pri nadpise v hĺbke viac ako 3 nevypisovalo číslo podkapitol (xsl:param name="section.autolabel.max.depth" select="2"). Do XSL som pridal kód pre manualne odriadkovanie textu v elemente "para". Aby bolo možné vypísať zoznam tabuliek a obrázkov, bolo nutné dopísať parametre "figure" a "table" generate.toc.
+Okrem elementov bol upravené aj XSL, v ktorom som upravil formát vypisovania kapitol. Taktiež som nastavil aby pri nadpise v hĺbke viac ako 3 nevypisovalo číslo podkapitol (xsl:param name="section.autolabel.max.depth" select="2"). Do XSL som pridal kód pre manualne odriadkovanie textu v elemente "para". Aby bolo možné vypísať zoznam tabuliek a obrázkov, bolo nutné dopísať parametre "figure" a "table" generate.toc.dd
